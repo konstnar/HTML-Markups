@@ -1,0 +1,179 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="utf-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        title Blueasy
+        link(href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet")
+        link(href="scss/main.css" rel="stylesheet")
+    body
+       // begin "main-header"
+       header.main-header
+          // begin "nav-bar"
+          div.nav-bar
+            div.layout-center
+               div.nav-bar-logo
+                  a.nav-bar-logo-link(href="#" title="logo")
+               // begin "nav-bar-list"
+               nav.nav-bar-list
+                  a.nav-bar-list-link.nav-bar-list-link-active(href="#") Home
+                  a.nav-bar-list-link(href="#service") Services
+                  a.nav-bar-list-link(href="#fefeature") Features
+                  a.nav-bar-list-link(href="#portfolio") Portfolio
+                  a.nav-bar-list-link(href="#") Contact
+               // end of "nav-bar-list"
+             div.clr
+          // end of "nav-bar"
+          div.layout-center
+             h1.main-title: span &nbsp;&nbsp;I’m looking for the unexpected.&nbsp;&nbsp;
+             h2.main-title: span &nbsp;&nbsp;looking for things I’ve never seen before.&nbsp;&nbsp;
+       // end of "main-header"
+       // begin "services"
+       section.services#service
+          div.layout-center
+             h3.serices-title Services
+             ul.services-list
+                li.services-list-item
+                  h4.services-list-title.coffe Coffee
+                  p.services-list-description.
+                     Apple pie icing sweet. Brownie jelly-o applicake applicake sweet roll liquorice bear claw. Jujubes
+                     carrot cake cotton candy sweet tart brownie. Tiramisu applicake jujubes.
+                li.services-list-item
+                   h4.services-list-title.instant Instant
+                   p.services-list-description.
+                      Apple pie icing sweet. Brownie jelly-o applicake applicake sweet roll liquorice bear claw. Jujubes
+                      carrot cake cotton candy sweet tart brownie. Tiramisu applicake jujubes.
+                li.services-list-item
+                   h4.services-list-title.serios Serious
+                   p.services-list-description.
+                      Apple pie icing sweet. Brownie jelly-o applicake applicake sweet roll liquorice bear claw. Jujubes
+                      carrot cake cotton candy sweet tart brownie. Tiramisu applicake jujubes.
+                li.services-list-item
+                   h4.services-list-title.frame Frame
+                   p.services-list-description.
+                      Apple pie icing sweet. Brownie jelly-o applicake applicake sweet roll liquorice bear claw. Jujubes
+                      carrot cake cotton candy sweet tart brownie. Tiramisu applicake jujubes.
+       // end of "services"
+       // begin "portfolio"
+       section.portfolio#portfolio
+          div.layout-center
+             h3.portfolio-title Portfolio
+             nav.portfolio-nav
+                a.portfolio-nav-link.portfolio-nav-link-active(href="#") all
+                a.portfolio-nav-link(href="#") panoramas
+                a.portfolio-nav-link(href="#") portraits
+                a.portfolio-nav-link(href="#") macro
+                a.portfolio-nav-link(href="#") journal
+             div.clr
+             ul.portfolio-list
+               li.portfolio-list-item
+                  img.portfolio-list-item-img(src="i/portfilio_item_1.jpg" alt="")
+               li.portfolio-list-item
+                  img.portfolio-list-item-img(src="i/portfilio_item_2.jpg" alt="")
+               li.portfolio-list-item
+                  img.portfolio-list-item-img(src="i/portfilio_item_3.jpg" alt="")
+               li.portfolio-list-item
+                  img.portfolio-list-item-img(src="i/portfilio_item_4.jpg" alt="")
+               li.portfolio-list-item
+                  img.portfolio-list-item-img(src="i/portfilio_item_5.jpg" alt="")
+               li.portfolio-list-item
+                  img.portfolio-list-item-img(src="i/portfilio_item_6.jpg" alt="")
+               li.portfolio-list-item
+                  img.portfolio-list-item-img(src="i/portfilio_item_7.jpg" alt="")
+               li.portfolio-list-item
+                  img.portfolio-list-item-img(src="i/portfilio_item_8.jpg" alt="")
+       // end of "portfolio"
+       // begin "feature"
+       section.feature#fefeature
+          div.layout-center
+             div.left-column
+               h3.feature-title Just default Section
+               p.feature-description.
+                  Bear claw marzipan bear claw applicake I love muffin.
+                  Lemon drops gummi bears pastry gummi bears sesame snaps I love unerdwear.com.
+                  Soufflé cotton candy dessert candy ice cream wafer gummies cheesecake brownie.
+               p.feature-description.
+                  Muffin chupa chups jelly beans sweet pie applicake. Croissant chocolate cake I love pudding.
+                  Ice cream I love powder pudding apple pie marshmallow.
+                  Cupcake marzipan oat cake bonbon I love candy canes toffee.
+               a.feature-link.btn-ftr(href="#") visit me
+             div.right-column
+                iframe(src="http://player.vimeo.com/video/114959407?portrait=0&amp;badge=0",
+                width="560", height="315", frameborder="0",
+                webkitallowfullscreen, mozallowfullscreen, allowfullscreen, style="float: right;")
+       // end of "feature"
+       // begin "twitter"
+       section.twitter
+          div.layout-center
+             h3.twitter-title Twitter
+             p.twitter-description.
+                Unerdwear cookie liquorice. Cake donut cupcake lollipop soufflé candy. Chocolate oat cake <a href="#">@cheesecake</a> tootsie roll.
+       // end of "twitter"
+       // begin "who"
+       section.who
+         div.layout-center
+            h3.who-title Who is john doe?
+            div.left-column
+               p.who-description.
+                  Bear claw marzipan bear claw applicake I love muffin.
+                  Lemon drops gummi bears pastry gummi bears sesame snaps I love unerdwear.com.
+                  Soufflé cotton candy dessert candy ice cream wafer gummies cheesecake brownie.
+               p.who-description.
+                  Muffin chupa chups jelly beans sweet pie applicake. Croissant chocolate cake I love pudding.
+                  Ice cream I love powder pudding apple pie marshmallow.
+                  Cupcake marzipan oat cake bonbon I love candy canes toffee.
+            div.right-column
+               p.who-description.
+                  Pudding dessert jujubes tiramisu gingerbread croissant tiramisu applicake.
+                  Sesame snaps sugar plum cotton candy chocolate bonbon lemon drops candy canes cotton candy.
+                  Cake toffee pie bear claw pastry.
+               nav.social
+                  a.social-link.tw(href="#"): i.fa.fa-twitter.fa-3x
+                  a.social-link.gplus(href="#"): i.fa.fa-google-plus.fa-3x
+                  a.social-link.tw(href="#"): i.fa.fa-dribbble.fa-3x
+                  a.social-link.tw(href="#"): i.fa.fa-coffee.fa-3x
+            div.clr
+       // end of "who"
+       // begin "testimonials"
+       div.testimonials
+          div.layout-center
+             h3.testimonials-title Testimonials
+             p.testimonials-description.
+                Applicake chocolate cake wafer toffee pie soufflé wafer.
+                Tart marshmallow wafer macaroon cheesecake jelly.
+                Gingerbread cookie soufflé sweet roll sweet roll jelly-o.
+             a.testimonials-link(href="#") -Walter White
+       // end of "testimonials"
+       // begin "contact"
+       div.contact
+          div.layout-center
+             h3.contact-title Contact
+             form.contact-form(action="", method="post")
+                div.right-column
+                   p.contact-description.
+                      Jujubes bear claw croissant wafer sweet lemon drops brownie chocolate bar.
+                      Sweet lollipop halvah tootsie roll cake fruitcake.
+                      Chocolate cake chocolate bar gingerbread lollipop tart. Jujubes bear claw donut chupa chups.
+                   p.contact-description.
+                      Linda Newman<br>
+                      W325 State Road 123<br>
+                      Mondovi, WI(Wisconsin) 98746-54321<br>
+                      (715) 946 - 1234
+                h5.contact-form-title Full name
+                input(type="text", name="full_name")
+                h5.contact-form-title Email
+                input(type="email", name="email")
+                h5.contact-form-title Message
+                textarea
+                input(type="submit", value="Message").btn-form
+       // end of "contact"
+       // begin "main footer"
+       div.main-footer
+          div.layout-center
+             nav.main-footer-nav
+               a.main-footer-nav-link(href='#') Home
+               a.main-footer-nav-link(href='#') Services
+               a.main-footer-nav-link(href='#') Portfolio
+               a.main-footer-nav-link(href='#') Contact
+             span.copy 2013 &copy;
+             div.clr

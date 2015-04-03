@@ -1,0 +1,386 @@
+body {
+	font-size: 0.625em;
+	font-family: "Roboto", sans-serif;
+	min-width: 1170px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Roboto Slab", serif;
+}
+
+.layout_center {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+
+div.border {
+	width: 100%;
+	height: 2px;
+	background: #dcdcdc;
+}
+
+div.footer_brd {
+	width: 100%;
+	height: 2px;
+	background: #363636;	
+}
+
+/*------------- HEADER -----------------*/
+
+.header {
+	width: 100%;
+	background: #e5e5e5;
+	padding-top: 47px;
+	padding-bottom: 40px;
+	border-bottom: 5px solid #d9d9d9;
+}
+
+.header .logo {
+	float: left;
+}
+
+.header >.layout_center {
+	position: relative;
+}
+
+.header .logo a {
+	/*
+	font-family: "Roboto Condensed", sans-serif;
+	font-size: 3.8em;
+	font-weight: 700;
+	color: #4e4e4e;
+	text-decoration: none;
+	text-transform: uppercase;*/
+	margin-top: 4px;
+	display: inline-block;
+}
+
+.header .main_nav {
+	float: right;
+	position: absolute;
+	bottom: 6px;
+	right:0;
+}
+
+.header .main_nav li {
+	display: inline-block;
+	height: 18px;
+	margin-right: 17px;
+}
+
+.header .main_nav li:last-child {
+	margin-right: 0;
+}
+
+.header .main_nav li a {
+	display: inline-block;
+	height: 100%;
+	font-size: 1.4em;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #4e4e4e;
+}
+
+.header .main_nav li a:hover {
+	border-bottom: 2px solid #1abb9c;
+}
+
+.header .main_nav li a.self {
+	color: #1abb9c;
+}
+
+.header >.layout_center:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/*********** SLIDER ******************/
+
+.slider {
+	width: 100%;
+	height: 600px;
+	background: url("../i/big_slider.jpg") center center no-repeat;
+	text-align: center;
+}
+
+.slider_main_title {
+	font-size: 4em;
+	font-family: "Roboto Slab", serif;
+	font-weight: 700;
+	color: #f3f3f3;
+	padding-top: 200px;
+	padding-bottom: 43px;
+}
+
+.slider_subtitle {
+	font-size: 3.2em;
+	font-family: "Roboto Slab", serif;
+	font-weight: 700;
+	color: #a8a8a8;	
+	padding-bottom: 42px;
+}
+
+.slider_btn {
+	font-family: "Roboto";
+	font-size: 1.4em;
+	color: #fff;
+	display: inline-block;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	background: #3f8dbf;
+	border-bottom: 4px solid #3678a3;
+	padding: 16px 26px;
+	border-radius: 0 0 5px 5px;
+}
+
+.slider_btn:hover {
+	background: #59a1d0;
+}
+
+/**************** COMPANY ***************/
+
+.company {
+	background: #f7f7f7;
+	padding-bottom: 50px;
+}
+
+.service {
+	width: 1072px;
+	margin: 0 auto;
+	padding-top: 60px;
+	padding-bottom: 58px;
+	
+}
+
+.service li {
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	margin-right: 50px;
+}
+
+.service li:last-child {
+	margin-right: 0;
+}
+
+.service li:before {
+	content: "";
+	display: block;
+	width: 90px;
+	height: 90px;
+	margin: 0 auto;
+	border-radius: 50px;
+
+}
+
+.service li.s1:before {
+	background: url("../i/icons.png") 33px 23px no-repeat #9d9abf;
+}
+
+.service li.s2:before {
+	background: url("../i/icons.png") -250px 23px no-repeat #d2514b;
+}
+
+.service li.s3:before {
+	background: url("../i/icons.png") -538px 23px no-repeat #66a3c6;
+}
+
+.service li.s4:before {
+	background: url("../i/icons.png") -826px 26px no-repeat #e8c04f;
+}
+
+.service_title {
+	font-size: 1.8em;
+	font-family: "Roboto Slab", serif;
+	font-weight: 700;
+	color: #4e4e4e;	
+	line-height: 3.333;
+}
+
+.service_description {
+	font-size: 1.4em;
+	font-family: "Roboto", serif;
+	color: #616161;	
+	line-height: 1.714;
+}
+
+.company >.layout_center>h3 {
+	font-family: "Roboto Condensed", sans-serif;
+	font-size: 1.8em;
+	font-weight: 700;
+	line-height: 1.944;
+	color: #4e4e4e;
+	text-transform: uppercase;
+	padding-top: 60px;
+	padding-bottom: 24px;
+}
+
+.latest_works li {
+	display: inline-block;
+	vertical-align: top;
+	width: 380px;
+	margin-right: 9px;
+}
+
+.latest_works li:last-child {
+	margin-right: 0;
+}
+
+.work_title {
+	font-size: 1.8em;
+	font-family: "Roboto Slab", serif;
+	font-weight: 700;
+	color: #4e4e4e;	
+	padding-top: 25px;
+	padding-bottom: 14px;
+}
+
+.work_subtitle {
+	font-size: 1.3em;
+	font-family: "Roboto Slab", serif;
+	color: #a8a8a8;	
+	padding-bottom: 24px;
+}
+
+.work_description {
+	font-size: 1.4em;
+	font-family: "Roboto", serif;
+	color: #5c5c5c;	
+	line-height: 2;
+}
+
+/***************** company_slogan *****************/
+
+.company_slogan {
+	background: #efefef;
+	text-align: center;
+	padding-top: 54px;
+	padding-bottom: 65px;
+}
+
+.main_slogan {
+	font-size: 2em;
+	font-family: "Roboto Slab", serif;
+	line-height: 1.5;
+	color: #a1a1a1;
+}
+
+.main_slogan:before {
+	content: "";
+	display: block;
+	width: 50px;
+	height: 50px;
+	margin: 0 auto;
+	background: url("../i/spirtes.png") -281px -50px no-repeat;
+	padding-bottom: 33px;
+}
+
+
+/******************** FOOTER *****************/
+.copyright {
+	font-size: 1.4em;
+	padding-top: 40px;
+	padding-bottom: 50px;
+}
+
+.footer {
+	width: 100%;
+	background: url("../i/footer_bg.jpg") repeat-x;
+	color: #cacaca;
+	line-height: 1.571;
+}
+
+.footer .column {
+	width: 290px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.footer .column h4 {
+	font-family: "Roboto Condensed", sans-serif;
+	font-size: 1.8em;
+	font-weight: 700;
+	color: #6c6c6c;
+	line-height: 1.222;
+	text-transform: uppercase;
+	padding-top: 40px;
+	padding-bottom: 25px;
+}
+
+.footer .address {
+	padding-bottom: 54px;
+}
+
+.footer .address p {
+	padding-bottom: 36px;
+}
+
+
+.footer .column.twitter_folow ul {
+	list-style-image: url("../i/twtr.png");
+}
+
+.footer .column.twitter_folow ul li,
+.footer .column.popular_posts ul li{
+	margin-bottom: 24px;
+}
+
+.footer .address span,
+.footer .address p,
+.footer .address li,
+.footer .column a,
+.footer .about p {
+	font-size: 1.4em;
+	font-family: "Roboto", sans-serif;
+	line-height: 1.714;
+	text-decoration: none;
+	color: #cacaca;
+}
+
+.footer .about p {
+	padding-bottom: 30px;
+	line-height: 1.571;
+}
+
+.footer .popular_posts .date {
+	font-family: "Roboto Slab", serif;
+	font-size: 12px;
+}
+
+.footer .street:before {
+	content: "";
+	display: inline-block;
+	width: 10px;
+	height: 40px;
+	float: left;
+	margin: 5px 10px 0 0;
+	background: url("../i/spirtes.png") 0 0 no-repeat;
+}
+
+.footer .tel:before {
+	content: "";
+	display: inline-block;
+	width: 10px;
+	height: 18px;
+	float: left;
+	margin: 5px 10px 0 0;
+	background: url("../i/spirtes.png") 0 -49px no-repeat;
+}
+
+.footer .emailto:before {
+	content: "";
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	float: left;
+	margin: 5px 6px 0 0;
+	background: url("../i/spirtes.png") 0 -71px no-repeat;
+}
+
+
+
+/************ THE END. thanks for review ***********/

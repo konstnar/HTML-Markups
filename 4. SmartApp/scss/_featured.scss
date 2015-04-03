@@ -1,0 +1,75 @@
+$featured__title_size: 5.6em;
+$featured__title_color: #fff;
+$featured__subtitle_size: 1.6em;
+$featured__subtitle_color: #fff;
+$featured__subtitle_link_color: #b86365;
+$featured__btn-store_color: #fff;
+$featured__btn-store_size: 2.2em;
+$featured__subtitle_bg: #10131b;
+
+.featured {
+  position: relative;
+
+  &:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+  &__title {
+    font-size: $featured__title_size;
+    color: $featured__title_color;
+    margin-top: 118px;
+    margin-bottom: 23px;
+    float: left;
+  }
+
+  &__subtitle {
+    font-size: $featured__subtitle_size;
+    line-height: 1.6;
+    color: $featured__subtitle_color;
+    width: 530px;
+    margin-bottom: 25px;
+
+    &_link {
+      color: $featured__subtitle_link_color;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  &__btn-store {&__promo-img {
+    float: right;
+    position: absolute;
+  }
+    color: $featured__btn-store_color;
+    background: $featured__subtitle_bg;
+    font-size: $featured__btn-store_size;
+    line-height: 1.2;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    padding: 11px 20px;
+    margin-bottom: 51px;
+    border-radius: 15px;
+
+    &:before {
+      content: "";
+      display: inline-block;
+      width: 29px;
+      height: 52px;
+      background: url("../i/btn_phone.png") no-repeat;
+      float: left;
+      padding-right: 25px;
+    }
+  }
+
+  &__promo-img {
+    float: right;
+    position: absolute;
+    top: -46px;
+    right: 0;
+  }
+}

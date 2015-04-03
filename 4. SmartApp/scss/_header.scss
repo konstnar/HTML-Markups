@@ -1,0 +1,97 @@
+$logo-bg: #b86365;
+$logo-title-bg: #fff;
+$logo__title-size: 4.2em;
+$logo__subtitle-size: 1.3em;
+$header-nav-font-size: 1.4em;
+$header-nav-brd-color: #666666;
+
+.header:after {
+  	content: "";
+  	display: block;
+  	clear: both;
+}
+
+.logo {
+	background: $logo-bg;
+	float: left;
+  	border-radius: 0 0 25px 25px;
+
+	&:after {
+	  	content: "";
+	  	display: block;
+	  	height: 1px;
+	  	width: 960px;
+		position: absolute;
+	  	z-index: -9999;
+	  	top: 117px;
+		border-bottom: 1px solid $header-nav-brd-color;
+	}
+
+	&__link {
+		display: block;
+	  	text-decoration: none;
+	}
+	&__title {
+		font-size: $logo__title-size;
+		color: $logo-title-bg;
+		text-transform: uppercase;
+		padding: 54px 22px 26px 24px;
+	}
+	&__subtitle {
+	  	font-size: $logo__subtitle-size;
+	  	color: $logo-title-bg;
+		text-align: center;
+	  	padding-bottom: 60px;
+	}
+}
+
+.header-nav {
+  	float: right;
+
+  	&__list {
+	  	list-style: none;
+	}
+	&__list:after {
+	  	content: "";
+	  	display: block;
+	  	clear: both;
+	}
+  	&__item {
+	  	float: left;
+	  	font-size: 1.6em;
+		padding: 0 18px;
+	  	position: relative;
+	}
+  	&__item:first-child {
+	  	padding-left: 0;
+	}
+  	&__item:last-child {
+	  padding-right: 0;
+	}
+  	&__item:after {
+	  	content: "";
+	  	display: inline-block;
+	  	position: absolute;
+	  	right: 0;
+	  	bottom: 0;
+	  	height: 20px;
+	  	width: 1px;
+	  	background: $header-nav-brd-color;
+	}
+	&__item:last-child:after {
+	  	display: none;
+	}
+  	&__link {
+	  	display: block;
+	  	height: 100%;
+	  	padding: 50px 0 0 0;
+	  	box-sizing: border-box;
+	  	text-decoration: none;
+	  	text-transform: uppercase;
+	  	color: #fff;
+	}
+  	&__link:hover {
+	  	padding-top: 46px;
+	  	border-top: 4px solid $logo-bg;
+	}
+}
